@@ -1,6 +1,6 @@
-##Task 2 – API Documentation
+## Task 2 – API Documentation
 
-Feature: Nudge Creation for Events / Articles
+# Feature: Nudge Creation for Events / Articles
 
 A Nudge is a scheduled notification or prompt created by a user to highlight an event or article.
 It includes a title, description, image, schedule time, icon, and a one-line invitation message.
@@ -70,4 +70,5 @@ Payload:
 
 
 Creates a new nudge for an event or article and returns the nudge ID.
+
 
