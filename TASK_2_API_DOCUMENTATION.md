@@ -6,7 +6,7 @@ A Nudge is a scheduled notification or prompt created by a user to highlight an 
 It includes a title, description, image, schedule time, icon, and a one-line invitation message.
 Nudges can be previewed, published immediately, or scheduled for later.
 
-Nudge Object Data Model 
+## Nudge Object Data Model 
 
 {
   "type": "nudge",
@@ -25,7 +25,7 @@ Nudge Object Data Model
   "created_at": "2026-01-03T11:00:00Z"
 }
 
-Field Description
+## Field Description
 
 type - Identifies the object as a nudge
 uid - User ID who created the nudge
@@ -43,9 +43,9 @@ status - draft / scheduled / published
 created_at - Creation timestamp
 
 
-Base URL - /api/v3/app
+## Base URL - /api/v3/app
 
-CRUD API Documentation for Nudge
+## CRUD API Documentation for Nudge
 
 1. Create a Nudge
 
@@ -70,5 +70,6 @@ Payload:
 
 
 Creates a new nudge for an event or article and returns the nudge ID.
+
 
 
