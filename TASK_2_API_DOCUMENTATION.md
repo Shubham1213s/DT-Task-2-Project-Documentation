@@ -1,4 +1,4 @@
-#Task 2 – API Documentation
+##Task 2 – API Documentation
 
 Feature: Nudge Creation for Events / Articles
 
@@ -70,3 +70,4 @@ Payload:
 
 
 Creates a new nudge for an event or article and returns the nudge ID.
+
