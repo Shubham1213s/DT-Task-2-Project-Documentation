@@ -28,6 +28,7 @@ Nudges can be previewed, published immediately, or scheduled for later.
 ```
 ## Field Description
 
+```
 type - It identifies the object as a nudge
 uid - User ID who created the nudge
 target_type - Event or Article
@@ -42,7 +43,7 @@ icon - Icon shown when nudge is minimized
 invitation_text	- One-line invitation message
 status - draft / scheduled / published
 created_at - Creation timestamp
-
+```
 
 ## Base URL - /api/v3/app
 
@@ -136,3 +137,4 @@ Info/Description: It deletes a nudge using its unique ID.
 
 ## Final Conclusion
 Basically, this API design enables users to create, schedule, manage, and display nudges associated with events or articles. It follows a clear CRUD-based structure and aligns with the provided wireframe and functional requirements.
+
