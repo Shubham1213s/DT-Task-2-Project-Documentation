@@ -8,6 +8,7 @@ Nudges can be previewed, published immediately, or scheduled for later.
 
 ## Nudge Object Data Model 
 
+```json
 {
   "type": "nudge",
   "uid": 18,
@@ -24,7 +25,7 @@ Nudges can be previewed, published immediately, or scheduled for later.
   "status": "scheduled",
   "created_at": "2026-01-03T11:00:00Z"
 }
-
+```
 ## Field Description
 
 type - Identifies the object as a nudge
@@ -70,6 +71,7 @@ Payload:
 
 
 Creates a new nudge for an event or article and returns the nudge ID.
+
 
 
 
